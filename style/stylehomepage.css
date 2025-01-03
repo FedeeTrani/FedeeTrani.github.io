@@ -28,11 +28,6 @@ body{
     color: #997a8d;
 }
 
-.navbar .logo{
-    font-size: 24px;
-    font-weight: bold;
-}
-
 .navbar .menu{
     display: flex;
 }
