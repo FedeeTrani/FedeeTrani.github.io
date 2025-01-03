@@ -17,15 +17,15 @@ body{
 }
 
 .navbar a{
-    color: #bc8f8f;
+    color: #ae8fbc;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .navbar a:hover{
     text-decoration: underline;
-    color: #997a8d;
+    color: #cf9dbc;
 }
 
 .navbar .menu{
