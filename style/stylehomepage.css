@@ -2,7 +2,7 @@ body{
     margin:0;
     background-color: black;
     color: white;
-    font-family: Georgia, serif;
+    font-family: "Garamond", serif;
 }
 
 .navbar{
@@ -17,7 +17,7 @@ body{
 }
 
 .navbar a{
-    color: white;
+    color: #bc8f8f;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -25,7 +25,7 @@ body{
 
 .navbar a:hover{
     text-decoration: underline;
-    color: #ff5500
+    color: #997a8d;
 }
 
 .navbar .logo{
