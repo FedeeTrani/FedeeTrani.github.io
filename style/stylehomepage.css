@@ -17,9 +17,10 @@ body{
 
 .navbar a{
     color: #9e7ead;
-    text-decoration: bold;
+    text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .navbar a:hover{
