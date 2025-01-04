@@ -8,7 +8,7 @@ body{
 .navbar {
     display: flex;
     justify-content: flex-end; 
-    background-color: black;
+    background-color: rgb(76, 69, 78);
     padding: 10px 20px;
     position: sticky;
     top: 0;
@@ -73,7 +73,7 @@ main {
 
 .name-section p {
     font-size: 1.5rem; /* Dimensione del font per la descrizione */
-    color: #777; /* Colore secondario per la descrizione */
+    color: #807481; /* Colore secondario per la descrizione */
 }
 
 
@@ -97,6 +97,13 @@ main {
     .name-section p {
         font-size: 1rem; /* Piccola descrizione su dispositivi mobile */
     }
+}
+
+footer {
+    background-color: rgb(76, 69, 78);
+    color: #938a94;
+    text-align: center;
+    padding: 10px 0;
 }
 
 
