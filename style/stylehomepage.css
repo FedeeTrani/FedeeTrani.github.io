@@ -8,62 +8,61 @@ body{
 .navbar {
     background-color: rgb(76, 69, 78);
     display: flex;
-    justify-content: center; 
-    padding: 24px 24px;
+    justify-content: space-between; /* Spazio tra logo e menu */
+    align-items: center; /* Centra verticalmente gli elementi */
+    padding: 10px 24px; /* Spaziatura interna */
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 60px; 
+    height: 60px;
 }
 
 .navbar .logo {
-    position: absolute; /* Posizionamento assoluto */
-    left: 20px; /* Distanza dal bordo sinistro */
-    top: 50%; /* Centra verticalmente */
-    transform: translateY(-50%); /* Corregge il centro verticale */
-    height: 50px; /* Regola l'altezza del logo */
-    width: 50px; /* Imposta la larghezza uguale all'altezza per un cerchio */
-    border-radius: 50%; /* Trasforma il quadrato in cerchio */
-    object-fit: cover; /* Adatta il contenuto senza deformazioni */
-    border: 2px solid white; /* (Facoltativo) Aggiunge un bordo */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white; /* Bordo opzionale */
 }
 
-.navbar a{
+.navbar .menu {
+    display: flex;
+    gap: 15px; /* Spaziatura tra i link */
+}
+
+.navbar a {
     color: #a082bd;
     text-decoration: none;
-    margin: 0 15px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     text-decoration: underline;
     color: #947f8d;
 }
 
-.navbar .menu{
-    display: flex;
-}
-
-@media (max-width: 768px){
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
+/* Layout Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Disposizione verticale */
+        align-items: center; /* Centra logo e menu */
+        height: auto; /* Altezza dinamica */
     }
 
-    .navbar .menu{
-        flex-direction: column;
-        width: 100%;
+    .navbar .menu {
+        flex-direction: column; /* Menu verticale */
+        align-items: center; /* Centra i link */
+        width: 100%; /* Menu largo quanto il contenitore */
         margin-top: 10px;
     }
 
-    .navbar .a{
+    .navbar a {
         font-size: 16px;
         margin: 10px 0;
     }
-
-
 }
+
 
 
 main {
