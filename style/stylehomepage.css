@@ -17,8 +17,15 @@ body{
 }
 
 .navbar .logo {
+    position: absolute; /* Posizionamento assoluto */
+    left: 20px; /* Distanza dal bordo sinistro */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Corregge il centro verticale */
     height: 50px; /* Regola l'altezza del logo */
-    width: auto; /* Mantiene le proporzioni */
+    width: 50px; /* Imposta la larghezza uguale all'altezza per un cerchio */
+    border-radius: 50%; /* Trasforma il quadrato in cerchio */
+    object-fit: cover; /* Adatta il contenuto senza deformazioni */
+    border: 2px solid white; /* (Facoltativo) Aggiunge un bordo */
 }
 
 .navbar a{
