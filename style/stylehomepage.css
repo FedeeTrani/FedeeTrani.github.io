@@ -79,9 +79,9 @@ main {
 
 .name-section h1 {
     margin: 0;
-    font-size: 3rem; /* Dimensione del font per schermi grandi */
+    font-size: 4rem; /* Dimensione del font per schermi grandi */
     color: #ffffff; /* Colore del testo */
-    font-weight: 300; 
+    font-weight: 200; 
 }
 
 .name-section p {
