@@ -7,16 +7,15 @@ body{
 
 .navbar {
     display: flex;
-    justify-content: flex-end; 
-    background-color: rgb(76, 69, 78);
-    padding: 10px 0;
+    justify-content: center; 
+    padding: 10px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .navbar a{
-    color: #9c81b4;
+    color: #a082bd;
     text-decoration: none;
     margin: 0 15px;
     font-size: 20px;
