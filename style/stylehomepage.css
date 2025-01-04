@@ -16,6 +16,11 @@ body{
     height: 60px; 
 }
 
+.navbar .logo {
+    height: 50px; /* Regola l'altezza del logo */
+    width: auto; /* Mantiene le proporzioni */
+}
+
 .navbar a{
     color: #a082bd;
     text-decoration: none;
