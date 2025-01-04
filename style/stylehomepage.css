@@ -68,12 +68,14 @@ main {
     margin: 0;
     font-size: 3rem; /* Dimensione del font per schermi grandi */
     color: #ffffff; /* Colore del testo */
+    font-weight: 300; 
 }
 
 .name-section p {
     font-size: 1.5rem; /* Dimensione del font per la descrizione */
     color: #777; /* Colore secondario per la descrizione */
 }
+
 
 
 /* Media Query per schermi più piccoli (tablet e mobile) */
