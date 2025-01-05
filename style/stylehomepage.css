@@ -70,7 +70,8 @@ main {
     display: flex;
     justify-content: center;  /* Centra orizzontalmente */
     align-items: center;      /* Centra verticalmente */
-    height: 100vh;            /* Occupare tutta l'altezza della finestra */
+    min-height: 100vh;            /* Occupare tutta l'altezza della finestra */
+    box-sizing: border-box;
 }
 
 .name-section {
@@ -92,8 +93,11 @@ main {
 /* Media Query per schermi più piccoli (tablet e mobile) */
 @media screen and (max-width: 768px) {
     main {
-        margin-top: calc(60px + 10px); /* Compensa l'altezza della navbar espansa */
-        height: calc(100vh - 60px - 10px); /* Assicura che l'altezza totale sia corretta */
+        display: flex;
+        justify-content: center;  /* Centra orizzontalmente */
+        align-items: center;      /* Centra verticalmente */
+        padding-top: 60px; /* Compensa l'altezza della navbar espansa */
+        min-height: calc(100vh - 60px); /* Assicura che l'altezza totale sia corretta */
     }
 
     .name-section h1 {
