@@ -96,8 +96,8 @@ main {
         display: flex;
         justify-content: center;  /* Centra orizzontalmente */
         align-items: center;      /* Centra verticalmente */
-        padding-top: 60px; /* Compensa l'altezza della navbar espansa */
-        min-height: calc(100vh - 60px); /* Assicura che l'altezza totale sia corretta */
+        padding-top: 50px; /* Compensa l'altezza della navbar espansa */
+        min-height: calc(100vh - 50px); /* Assicura che l'altezza totale sia corretta */
     }
 
     .name-section h1 {
