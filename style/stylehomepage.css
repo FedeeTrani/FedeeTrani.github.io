@@ -102,11 +102,11 @@ main {
     }
 
     .name-section h1 {
-        font-size: 2.5rem; /* Riduci la dimensione del font per schermi più piccoli */
+        font-size: 3rem; /* Riduci la dimensione del font per schermi più piccoli */
     }
 
     .name-section p {
-        font-size: 1.2rem; /* Riduci la dimensione del testo per la descrizione */
+        font-size: 1.8rem; /* Riduci la dimensione del testo per la descrizione */
     }
 }
 
@@ -121,11 +121,11 @@ main {
     }
 
     .name-section h1 {
-        font-size: 2rem; /* Ancora più piccolo su dispositivi molto piccoli */
+        font-size: 2.5rem; /* Ancora più piccolo su dispositivi molto piccoli */
     }
 
     .name-section p {
-        font-size: 1rem; /* Piccola descrizione su dispositivi mobile */
+        font-size: 1.2rem; /* Piccola descrizione su dispositivi mobile */
     }
 }
 
