@@ -97,7 +97,7 @@ main {
         display: flex;
         justify-content: center;  /* Centra orizzontalmente */
         align-items: center;      /* Centra verticalmente */
-        min-height: calc(100vh - 5px); 
+        min-height: calc(100vh - 80px); 
         margin-top: -90px;
     }
 
@@ -116,7 +116,7 @@ main {
         display: flex;
         justify-content: center;  /* Centra orizzontalmente */
         align-items: center;      /* Centra verticalmente */
-        min-height: calc(100vh - 5px); 
+        min-height: calc(100vh - 80px); 
         margin-top: -90px;
     }
 
