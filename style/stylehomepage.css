@@ -18,11 +18,11 @@ body{
 }
 
 .navbar .logo {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid white; /* Bordo opzionale */
+    border: 2px solid rgb(147, 138, 150); /* Bordo opzionale */
 }
 
 .navbar .menu {
@@ -31,7 +31,7 @@ body{
 }
 
 .navbar a {
-    color: #a082bd;
+    color: rgb(236, 236, 236);
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -93,11 +93,12 @@ main {
 /* Media Query per schermi più piccoli (tablet e mobile) */
 @media screen and (max-width: 768px) {
     main {
+        /*border: 2px solid red; Debug temporaneo */
         display: flex;
         justify-content: center;  /* Centra orizzontalmente */
         align-items: center;      /* Centra verticalmente */
-        padding-top: 50px; /* Compensa l'altezza della navbar espansa */
-        min-height: calc(100vh - 50px); /* Assicura che l'altezza totale sia corretta */
+        min-height: calc(100vh - 5px); 
+        margin-top: -90px;
     }
 
     .name-section h1 {
@@ -110,6 +111,15 @@ main {
 }
 
 @media screen and (max-width: 480px) {
+    main {
+       /* border: 2px solid red; Debug temporaneo */
+        display: flex;
+        justify-content: center;  /* Centra orizzontalmente */
+        align-items: center;      /* Centra verticalmente */
+        min-height: calc(100vh - 5px); 
+        margin-top: -90px;
+    }
+
     .name-section h1 {
         font-size: 2rem; /* Ancora più piccolo su dispositivi molto piccoli */
     }
