@@ -27,7 +27,7 @@ body{
 
 .navbar .menu {
     display: flex;
-    gap: 30px; /* Spaziatura tra i link */
+    gap: 16px; /* Spaziatura tra i link */
 }
 
 .navbar a {
