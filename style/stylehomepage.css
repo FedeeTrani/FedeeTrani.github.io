@@ -152,14 +152,14 @@ footer {
     display: flex;
     flex-direction: column; /* Dispone i pulsanti uno sotto l'altro */
     align-items: center; /* Centra i pulsanti orizzontalmente */
-    gap: 40px; /* Spazio tra i pulsanti */
-    margin-top: 10px; /* Spazio superiore per il contenitore */
+    gap: 15px; /* Spazio tra i pulsanti */
+    margin-top: 20px; /* Spazio superiore per il contenitore */
 }
 
 .long-button {
     width: 90%; /* Larghezza dei pulsanti (percentuale per responsività) */
     max-width: 600px; /* Limita la larghezza massima dei pulsanti */
-    padding: 80px; /* Altezza dei pulsanti */
+    padding: 15px; /* Altezza dei pulsanti */
     font-size: 18px; /* Dimensione del testo */
     background: linear-gradient(150deg, #947f8d, #664c5d, #68415a); /* Colore di sfondo */
     color: white; /* Colore del testo */
