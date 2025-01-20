@@ -161,7 +161,7 @@ footer {
     max-width: 600px; /* Limita la larghezza massima dei pulsanti */
     padding: 15px; /* Altezza dei pulsanti */
     font-size: 18px; /* Dimensione del testo */
-    background: linear-gradient(150deg, #947f8d, #664c5d, #68415a); /* Colore di sfondo */
+    background: linear-gradient(150deg, #947f8d, #64515d, #5f4656); /* Colore di sfondo */
     color: white; /* Colore del testo */
     border: none; /* Rimuove i bordi */
     border-radius: 8px; /* Arrotondamento degli angoli */
