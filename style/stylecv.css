@@ -119,6 +119,9 @@ footer {
 }
 
 
+#destinazione {
+  scroll-margin-top: 120px; /* Regola lo spazio quando si salta al punto */
+}
 
 
 

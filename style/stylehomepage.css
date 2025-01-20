@@ -148,4 +148,50 @@ footer {
 
 
 
+.button-container {
+    display: flex;
+    flex-direction: column; /* Dispone i pulsanti uno sotto l'altro */
+    align-items: center; /* Centra i pulsanti orizzontalmente */
+    gap: 40px; /* Spazio tra i pulsanti */
+    margin-top: 10px; /* Spazio superiore per il contenitore */
+}
+
+.long-button {
+    width: 90%; /* Larghezza dei pulsanti (percentuale per responsività) */
+    max-width: 600px; /* Limita la larghezza massima dei pulsanti */
+    padding: 80px; /* Altezza dei pulsanti */
+    font-size: 18px; /* Dimensione del testo */
+    background: linear-gradient(150deg, #947f8d, #664c5d, #68415a); /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    border: none; /* Rimuove i bordi */
+    border-radius: 8px; /* Arrotondamento degli angoli */
+    cursor: pointer; /* Cambia il cursore quando si passa sopra */
+    transition: background-color 0.3s; /* Effetto al passaggio del mouse */
+    text-align: center;
+}
+
+.long-button:hover {
+    background: linear-gradient(150deg, #947f8d, #947f8d, #947f8d); /* Colore di sfondo al passaggio del mouse */
+}
+
+/* Media query per dispositivi piccoli */
+@media (max-width: 600px) {
+    .long-button {
+        font-size: 16px; /* Testo leggermente più piccolo */
+        padding: 12px; /* Riduci il padding */
+    }
+}
+
+/* Media query per dispositivi molto grandi */
+@media (min-width: 1200px) {
+    .long-button {
+        font-size: 20px; /* Testo più grande per schermi grandi */
+        padding: 18px; /* Aumenta il padding */
+    }
+}
+
+
+
+
+
 
