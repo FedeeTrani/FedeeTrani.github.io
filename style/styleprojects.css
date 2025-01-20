@@ -54,7 +54,7 @@ body{
         align-items: center; /* Centra i link */
         width: 100%; /* Menu largo quanto il contenitore */
         margin-top: 10px;
-        gap: 6px; /* Spaziatura tra i link */
+        gap: 2px; /* Spaziatura tra i link */
       }
     
     .navbar a {
