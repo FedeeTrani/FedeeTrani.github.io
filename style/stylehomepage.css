@@ -53,11 +53,11 @@ body{
         flex-direction: column; /* Menu verticale */
         align-items: center; /* Centra i link */
         width: 100%; /* Menu largo quanto il contenitore */
-        margin-top: 0px;
+        margin-top: 10px;
         gap: 2px;
     }
     .navbar a {
-        font-size: 20px;
+        font-size: 16px;
         margin: 10px 0;
     }
 }
