@@ -123,6 +123,20 @@ footer {
   scroll-margin-top: 120px; /* Regola lo spazio quando si salta al punto */
 }
 
+/* Media query per dispositivi piccoli (ad esempio smartphone) */
+@media (max-width: 600px) {
+  #destinazione {
+      scroll-margin-top: 200px; /* Riduci lo spazio sui dispositivi piccoli */
+  }
+}
+
+/* Media query per dispositivi medi (ad esempio tablet) */
+@media (max-width: 1024px) {
+  #destinazione {
+      scroll-margin-top: 260px; /* Imposta un valore intermedio */
+  }
+}
+
 
 
 
