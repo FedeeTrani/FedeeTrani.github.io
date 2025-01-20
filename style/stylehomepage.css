@@ -157,17 +157,20 @@ footer {
 }
 
 .long-button {
-    width: 90%; /* Larghezza dei pulsanti (percentuale per responsività) */
-    max-width: 600px; /* Limita la larghezza massima dei pulsanti */
-    padding: 15px; /* Altezza dei pulsanti */
+    width: 300px; /* Imposta la larghezza del pulsante */
+    height: 300px; /* Imposta l'altezza uguale alla larghezza */
+    padding: 0; /* Rimuovi il padding, poiché non è più necessario */
     font-size: 18px; /* Dimensione del testo */
     background: linear-gradient(150deg, #947f8d, #64515d, #5f4656); /* Colore di sfondo */
     color: white; /* Colore del testo */
     border: none; /* Rimuove i bordi */
-    border-radius: 8px; /* Arrotondamento degli angoli */
+    border-radius: 50%; /* Arrotonda gli angoli per fare un cerchio */
     cursor: pointer; /* Cambia il cursore quando si passa sopra */
     transition: background-color 0.3s; /* Effetto al passaggio del mouse */
     text-align: center;
+    display: flex; /* Usa flexbox per centrare il testo */
+    align-items: center; /* Centra il testo verticalmente */
+    justify-content: center; /* Centra il testo orizzontalmente */
 }
 
 .long-button:hover {
@@ -177,18 +180,21 @@ footer {
 /* Media query per dispositivi piccoli */
 @media (max-width: 600px) {
     .long-button {
-        font-size: 16px; /* Testo leggermente più piccolo */
-        padding: 12px; /* Riduci il padding */
+        width: 200px; /* Riduci la larghezza sui dispositivi più piccoli */
+        height: 200px; /* Mantieni la forma del cerchio */
+        font-size: 14px; /* Riduci la dimensione del testo */
     }
 }
 
 /* Media query per dispositivi molto grandi */
 @media (min-width: 1200px) {
     .long-button {
-        font-size: 20px; /* Testo più grande per schermi grandi */
-        padding: 18px; /* Aumenta il padding */
+        width: 300px; /* Aumenta la larghezza sui dispositivi più grandi */
+        height: 300px; /* Mantieni la forma del cerchio */
+        font-size: 22px; /* Aumenta la dimensione del testo */
     }
 }
+
 
 
 
