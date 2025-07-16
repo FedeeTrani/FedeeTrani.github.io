@@ -177,23 +177,33 @@ footer {
     background: linear-gradient(150deg, #947f8d, #947f8d, #947f8d); /* Colore di sfondo al passaggio del mouse */
 }
 
-/* Media query per dispositivi piccoli */
+/* Dispositivi piccoli */
 @media (max-width: 600px) {
     .long-button {
-        width: 200px; /* Riduci la larghezza sui dispositivi più piccoli */
-        height: 200px; /* Mantieni la forma del cerchio */
-        font-size: 14px; /* Riduci la dimensione del testo */
+        width: 200px;
+        height: 200px;
+        font-size: 14px;
     }
 }
 
-/* Media query per dispositivi molto grandi */
-@media (min-width: 1200px) {
+/* Dispositivi medi */
+@media (min-width: 601px) and (max-width: 1199px) {
     .long-button {
-        width: 300px; /* Aumenta la larghezza sui dispositivi più grandi */
-        height: 300px; /* Mantieni la forma del cerchio */
-        font-size: 22px; /* Aumenta la dimensione del testo */
+        width: 250px;
+        height: 250px;
+        font-size: 18px;
     }
 }
+
+/* Dispositivi grandi */
+@media (min-width: 1200px) {
+    .long-button {
+        width: 300px;
+        height: 300px;
+        font-size: 22px;
+    }
+}
+
 
 
 
