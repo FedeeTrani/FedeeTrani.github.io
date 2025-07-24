@@ -5,6 +5,8 @@ body{
     font-family: "Playfair Display", serif;
 }
 
+
+
 .navbar {
     background-color: rgb(76, 69, 78);
     display: flex;
@@ -16,7 +18,6 @@ body{
     z-index: 1000;
     height: 60px;
 }
-
 .navbar .logo {
     height: 70px;
     width: 70px;
@@ -24,24 +25,20 @@ body{
     object-fit: cover;
     border: 2px solid rgb(147, 138, 150); /* Bordo opzionale */
 }
-
 .navbar .menu {
     display: flex;
     gap: 16px; /* Spaziatura tra i link */
 }
-
 .navbar a {
     color: rgb(236, 236, 236);
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
 }
-
 .navbar a:hover {
     text-decoration: underline;
     color: #947f8d;
 }
-
 /* Layout Responsive */
 @media (max-width: 768px) {
     .navbar {
@@ -55,16 +52,12 @@ body{
         width: 100%; /* Menu largo quanto il contenitore */
         margin-top: 0px;
         gap: 2px; /* Spaziatura tra i link */
-      }
-    
+      }  
     .navbar a {
         font-size: 16px;
         margin: 8px 0;
     }
 }
-
-
-
 
 
 
@@ -75,57 +68,45 @@ main{
     min-height: 100vh;
     align-items: center;      /* Centra verticalmente */
   }
-
   .container {
     padding: 20px;
   }
-
   header {
     flex-grow: 0;
   }
-
   main {
     flex-grow: 1;
   }
-
   h1 {
     font-size: 2.1rem;
     margin: 0;
     color: rgb(236, 236, 236);
   }
-
   p {
     font-size: 1rem;
     margin: 10px 0 0;
     color: rgb(163, 141, 161);
   }
-
-
-
-
   @media (max-width: 768px) {
     h1 {
       font-size: 2rem;
     }
-
     p {
       font-size: 1rem;
     }
   }
 
 
-  
+
   #destinazione1 {
     scroll-margin-top: 120px; /* Regola lo spazio quando si salta al punto */
   }
-  
   /* Media query per dispositivi piccoli (ad esempio smartphone) */
   @media (max-width: 600px) {
     #destinazione1 {
         scroll-margin-top: 200px; /* Riduci lo spazio sui dispositivi piccoli */
     }
   }
-  
   /* Media query per dispositivi medi (ad esempio tablet) */
   @media (max-width: 1024px) {
     #destinazione1 {
